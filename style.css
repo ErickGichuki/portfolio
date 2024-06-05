@@ -41,8 +41,9 @@ header h1 {
 #connect{
     background-image: url("https://media.istockphoto.com/id/1467937769/photo/digital-technology-abstract-concept-small-particles-connected-in-multicolored-lines-with-a.webp?b=1&s=170667a&w=0&k=20&c=KhJF3jboPIZWJ0hnHDcy2raWi_37QJpJnKDEiApzSTc=");
     background-repeat: repeat;
-    width: 100%;
+    width: 94%;
 }
+
 #cv {
     padding: 19px;
     margin: 50px;
@@ -50,6 +51,7 @@ header h1 {
     border-radius: 19px;
     border: none;
     background-color: rgb(10, 197, 10);
+    color: hwb(0 0% 100%);
 
 }
 #cv:hover{
@@ -63,6 +65,7 @@ header h1 {
     border: none;
     background-color: #9a7474;
     cursor: pointer;
+    color: #f3f3f3;
     
 }
 #linkedin a{
@@ -82,9 +85,15 @@ header h1 {
     color: rgb(85, 47, 255);
     text-decoration: underline;
 }
+
 #project1 a:hover{
     color: rgb(27, 71, 147);
 }
+#project1, 
+#project2{
+    text-align: center;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
