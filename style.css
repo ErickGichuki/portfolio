@@ -1,0 +1,239 @@
+body{
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+#container{
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+a:hover{
+    color: #0056b3;
+}
+header{
+    background-color: #518b85;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+#about h2{
+    font-weight: bolder;
+    font-size: 34px;
+    text-align: center;
+}
+#about h4{
+    color: #259f5a;
+    text-align: center;
+}
+
+#mya {
+    margin-right: 10px;
+    color: white;
+}
+#connect{
+    background-image: url("https://media.istockphoto.com/id/1467937769/photo/digital-technology-abstract-concept-small-particles-connected-in-multicolored-lines-with-a.webp?b=1&s=170667a&w=0&k=20&c=KhJF3jboPIZWJ0hnHDcy2raWi_37QJpJnKDEiApzSTc=");
+    background-repeat: repeat;
+    width: 100%;
+}
+#cv {
+    padding: 19px;
+    margin: 50px;
+    width: 18%;
+    border-radius: 19px;
+    border: none;
+    background-color: rgb(10, 197, 10);
+
+}
+#cv:hover{
+    background-color: rgb(139, 113, 0);
+    cursor: pointer;
+}
+#linkedin{
+    padding: 19px;
+    width: 20%;
+    border-radius: 20px;
+    border: none;
+    background-color: #9a7474;
+    cursor: pointer;
+    
+}
+#linkedin a{
+    color: white;
+}
+#linkedin:hover{
+    background: rgb(15, 145, 164);
+}
+
+#cv a {
+    color: #fff;
+}
+#mya:hover{
+    color: bisque;
+}
+#project1 a{
+    color: rgb(85, 47, 255);
+    text-decoration: underline;
+}
+#project1 a:hover{
+    color: rgb(27, 71, 147);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    margin-left: 10;
+
+}
+nav ul li {
+margin: 10px;
+margin-left: 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+section{
+    padding: 1rem;
+    margin: 1rem 0;
+}
+section#about {
+    background: #f4f4f4;
+}
+section#projects {
+    background: rgb(244, 240, 240);
+}
+section#projects p a{
+    color: rgb(34, 179, 189);
+    text-decoration: underline;
+}
+section#projects p a:hover{
+    color: rgb(29, 29, 79);
+}
+section#contact {
+    background: #f4f4f4;
+}
+section#contact a{
+    color: rgb(73, 73, 167);
+}
+section#experience {
+    background-color: rgb(240, 236, 236);
+}
+.project{
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+footer{
+    background-color: #421b81;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.project h3 {
+    margin-top: 0;
+}
+ #bottom p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 26px;
+ }
+ #bottom ul li {
+    list-style: none;
+    margin: 0;
+ }
+ #bottom ul li a{
+    color: black;
+ }
+ #bottom ul li a:hover{
+    color: darkblue;
+ }
+ #projects h2,
+ #experience h3,
+ #comingsoon h2,
+ #contact h2 {
+    font-weight: bolder;
+    font-size: 26px;
+    color: rgb(27, 27, 50);
+    text-align: center;
+ }
+
+
+ @media (max-width: 1200px) {
+    #cv, #linkedin {
+        width: 25%;
+        padding: 15px;
+    }
+    #cv {
+        margin: 40px auto;
+     }
+ }
+
+ @media ( max-width: 992px) {
+    #cv, #linkedin {
+        width: 35%;
+        padding: 12px;
+    }
+    #cv {
+        margin: 30px auto;
+    }
+ }
+ @media(max-width:768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    #cv, #linkedin {
+        width: 45%;
+        padding: 10px;
+    }
+    #cv {
+        margin: 20px auto;
+    }
+ }
+
+ @media(max-width:56px) {
+    header, footer {
+        text-align: center;
+    }
+    #cv, #linkedin {
+        width: 60%;
+        padding: 8px;
+    }
+    #cv {
+        margin: 15px auto;
+    }
+ }
+
+ @media (max-width: 400px) {
+    #cv, #linkedin {
+        width: 75%;
+        padding: 20px;
+        margin: 20px;
+    }
+    #cv {
+        margin: 10px auto;
+        margin-left: 19px;
+    }
+    #linkedin{
+        margin-left: 19px;
+    }
+
+    #about h2{
+        font-size: 28px;
+    }
+ }
