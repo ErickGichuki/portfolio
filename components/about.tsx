@@ -21,8 +21,8 @@ export default function About() {
       <p className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">Economics and Statistics</span>, I started working as a data analyst at Correlaction Africa limited. Later on I enrolled at Powerlearn Project and learned{" "}
-        <span className="font-medium">full-stack web development using Django and Javascript and Flutter for mobile applications. I am currently studying at Moringa school.</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
+        <span className="font-medium">full-stack web development using Django and Javascript and Flutter for mobile applications. I am currently studying at Moringa school.</span>{" "}
+        <span className="">My favorite part of programming</span> is the
         back-end development. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
