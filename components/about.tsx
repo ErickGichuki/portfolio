@@ -20,27 +20,22 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After graduating with a degree in{" "}
-        <span className="font-medium">Economics and Statistics</span>, I started working as a data analyst at Correlaction Africa limited. Later on I enrolled at Powerlearn Project and learned{" "}
-        <span className="font-medium">full-stack web development using Django and Javascript and Flutter for mobile applications. I am currently studying at Moringa school.</span>{" "}
-        <span className="">My favorite part of programming</span> is the
-        back-end development. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        <span className="font-medium">Economics and Statistics</span>, I commenced my career as a Data analyst at Correlaction Africa limited. I Later enhanced my technical skills by enrolling in the Powerlearn Project, where I gained comprehensive knowledge in full-stack web applications{" "}
+        <span className="font-medium">using Django and Javascript, as well as mobile applications development with Flutter. I am currently pursuing further studies at Moringa school.</span>{" "}
+        My passion lies in back-end development, where I thrive on solving complexproblems and devising efficient solutions. My core technology stack includes
+        {" "}
         <span className="font-medium">
-          React, Flask, and Database
+          React, Flask, and Database systems.
         </span>
-        I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        I am committed to continuous learning and am always keen to explore new technologies.
+        <span className="font-medium">I am actively seeking a full-time position as a Software Developer where I can contribute my skills and grow professionally.</span>
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing playing piano and reading blogs.{" "}
-        <span className="font-medium">learning new things is my part</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">data and machine learning</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">In addition to my professional pursuits</span>, I enjoy playing the piano and reading blogs.{" "}
+        <span className="font-medium">I am passionate about continuous learning and</span> am currently
+        delving into{" "}
+        <span className="font-medium">data science and machine learning.</span>
       </p>
     </motion.section>
   );
