@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import hymnsImg from "@/public/hymns.png";
 import eventImg from "@/public/event.png";
+import cliImg from "@/public/cli.png"
 
 export const links = [
   {
@@ -65,7 +66,7 @@ export const projectsData = [
     description:
       "A command line management system that enables users to create, update, read and delete hymns.",
     tags: ["Python", "Sqlite", "Click"],
-    imageUrl: hymnsImg,
+    imageUrl: cliImg,
   },
 ] as const;
 
