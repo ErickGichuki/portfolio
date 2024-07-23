@@ -3,39 +3,26 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
-import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
 
   return (
     <motion.section
-      ref={ref}
       className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Economics and Statistics</span>, I commenced my career as a Data analyst at Correlaction Africa limited. I Later enhanced my technical skills by enrolling in the Powerlearn Project, where I gained comprehensive knowledge in full-stack web applications{" "}
-        <span className="font-medium">using Django and Javascript, as well as mobile applications development with Flutter. I am currently pursuing further studies at Moringa school.</span>{" "}
-        My passion lies in back-end development, where I thrive on solving complexproblems and devising efficient solutions. My core technology stack includes
-        {" "}
-        <span className="font-medium">
-          React, Flask, and Database systems.
-        </span>
-        I am committed to continuous learning and am always keen to explore new technologies.
-        <span className="font-medium">I am actively seeking a full-time position as a Software Developer where I can contribute my skills and grow professionally.</span>
+        I hold a degree in <span className="font-medium">Economics and Statistics</span>, which laid the foundation for my analytical skills. My professional journey began as a Data Analyst at Correlaction Africa, where I honed my ability to derive insights from data. Eager to learn programming and solve real world problems facing us everyday, I joined Powerlearn Project bootcamp, diving into <span className="font-medium">full-stack web development using Django and JavaScript, as well as mobile development with Flutter</span>. I am currently enhancing my knowledge further at Moringa School.
       </p>
-
+      <p className="mb-3">
+        My passion lies in <span className="font-medium">back-end development</span>, where I enjoy tackling complex challenges and implementing effective solutions. My core technology stack includes <span className="font-medium">React, Flask, and Database systems</span>. I am committed to continuous learning and am actively seeking a <span className="font-medium">full-time Software Developer position</span> to leverage my skills and contribute to impactful projects.
+      </p>
       <p>
-        <span className="italic">In addition to my professional pursuits</span>, I enjoy playing the piano and reading blogs.{" "}
-        <span className="font-medium">I am passionate about continuous learning and</span> am currently
-        delving into{" "}
-        <span className="font-medium">data science and machine learning.</span>
+        Outside of my professional life, I find joy in <span className="italic">playing the piano</span>
       </p>
     </motion.section>
   );
