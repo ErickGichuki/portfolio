@@ -39,7 +39,7 @@ export const experiencesData = [
     title: "Data Analyst",
     location: "Kisumu, Kenya",
     description:
-      "I worked as a data analyst at correlaction Africa.",
+      "Served as a Data Analyst at Correlaction Africa, where I analyzed and interpreted complex data to support business decisions",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - 2024",
   },
@@ -50,7 +50,7 @@ export const projectsData = [
   {
     title: "Event Hub",
     description:
-      "It's a robust event management system designed to enable organisations manage events while offering users an intuitive interface to view & engage with upcoming events.",
+      "A robust system designed to enable organisations manage events while offering users an intuitive interface to view & engage with upcoming events.",
     tags: ["React", "Flask", "Tailwind"],
     imageUrl: eventImg,
     githubUrl:"https://github.com/IannitoTechbros/PHASE-4---GROUP-PROJECT---IAN-GIDEON-ERICK-GRIFFINS.git"
