@@ -73,14 +73,12 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
-  "Django",
-  "Flask",
-  "Figma",
-  "Tailwind",
-  "MUI"
-] as const;
+export const skillsData: SkillsData = {
+  frontend: ["HTML", "CSS", "JavaScript", "React", "Next js","Tailwind"],
+  backend: ["Python", "Flask", "Django", "PostgreSQL", "SQlite", "MongoDB"],
+} as const;
+ 
+type SkillsData = {
+  frontend: string[];
+  backend: string[];
+}
