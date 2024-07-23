@@ -3,15 +3,23 @@
 import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
+import { StaticImageData} from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = {
+  title : string;
+  description: string;
+  tags: string[];
+  imageUrl: StaticImageData;
+  githubUrl?: string;
+}
 
 export default function Project({
   title,
   description,
   tags,
   imageUrl,
+  githubUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -46,6 +54,16 @@ export default function Project({
               </li>
             ))}
           </ul>
+          {githubUrl && (
+            <a 
+            href={githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-block text-blue-600 hover:underline dark:text-blue-400"
+            >
+              View on GitHub
+            </a>
+          )}
         </div>
 
         <Image

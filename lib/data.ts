@@ -53,6 +53,7 @@ export const projectsData = [
       "Event Hub is a management system that enables companies to create events nd users are able to view upcoming events seamlessly.",
     tags: ["React", "Flask", "Tailwind"],
     imageUrl: eventImg,
+    githubUrl:"https://github.com/IannitoTechbros/PHASE-4---GROUP-PROJECT---IAN-GIDEON-ERICK-GRIFFINS.git"
   },
   {
     title: "Hymns web app",
@@ -60,6 +61,7 @@ export const projectsData = [
       "Its a web application that helps users to browse hymns by author, key and title.",
     tags: ["HTML","Js","CSS"],
     imageUrl: hymnsImg,
+    githubUrl:"https://github.com/ErickGichuki/Hymns.git"
   },
   {
     title: "CLI hymns app",
@@ -67,6 +69,7 @@ export const projectsData = [
       "A command line management system that enables users to create, update, read and delete hymns.",
     tags: ["Python", "Sqlite", "Click"],
     imageUrl: cliImg,
+    githubUrl:"https://github.com/ErickGichuki/CLI-hymns-app.git"
   },
 ] as const;
 
