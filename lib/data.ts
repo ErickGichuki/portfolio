@@ -73,12 +73,13 @@ export const projectsData = [
   },
 ] as const;
 
+type SkillsCategory = "frontend" | "backend";
+
+type SkillsData = {
+  [key in SkillsCategory]:readonly string[];
+}
+
 export const skillsData: SkillsData = {
   frontend: ["HTML", "CSS", "JavaScript", "React", "Next js","Tailwind"],
   backend: ["Python", "Flask", "Django", "PostgreSQL", "SQlite", "MongoDB"],
 } as const;
- 
-type SkillsData = {
-  frontend: readonly string[];
-  backend: readonly string[];
-}
