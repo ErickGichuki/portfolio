@@ -80,6 +80,6 @@ type SkillsData = {
 }
 
 export const skillsData: SkillsData = {
-  frontend: ["HTML", "CSS", "JavaScript", "React", "Next js","Tailwind"],
-  backend: ["Python", "Flask", "Django", "PostgreSQL", "SQlite", "MongoDB"],
+  frontend: ["HTML", "CSS", "JavaScript", "React","Tailwind"],
+  backend: ["Python", "Flask", "PostgreSQL", "SQlite", "MongoDB"],
 } as const;
