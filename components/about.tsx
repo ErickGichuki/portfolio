@@ -22,7 +22,7 @@ export default function About() {
         My passion lies in <span className="font-medium">back-end development</span>, where I enjoy tackling complex challenges and implementing effective solutions. My core technology stack includes <span className="font-medium">React, Flask, and Database systems</span>. I am committed to continuous learning and am actively seeking a <span className="font-medium">full-time Software Developer position</span> to leverage my skills and contribute to impactful projects.
       </p>
       <p>
-        Outside of my professional life, I find joy in <span className="italic">playing the piano</span>
+        Outside of my professional life, I find joy in <span className="italic">playing the piano</span>.
       </p>
     </motion.section>
   );
