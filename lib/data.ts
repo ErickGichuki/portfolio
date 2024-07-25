@@ -79,6 +79,6 @@ export const skillsData: SkillsData = {
 } as const;
  
 type SkillsData = {
-  frontend: string[];
-  backend: string[];
+  frontend: readonly string[];
+  backend: readonly string[];
 }
