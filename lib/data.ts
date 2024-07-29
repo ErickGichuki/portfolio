@@ -51,7 +51,7 @@ export const projectsData = [
   {
     title: "Daniel Interior Designs",
     description:
-      "A website.",
+      "A web application created for an interior design company, Daniel Interior Designs. The platform is designed with a focus on modern design aesthetics and user experience.",
     tags: ["React", "Flask", "Tailwind"],
     imageUrl: danImg,
     githubUrl:"https://github.com/ErickGichuki/Daniel-Interior-designs.git"
