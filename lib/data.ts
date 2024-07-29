@@ -4,7 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import hymnsImg from "@/public/hymns.png";
 import eventImg from "@/public/event.png";
-import cliImg from "@/public/cli.png"
+import cliImg from "@/public/cli.png";
+import danImg from "@/public/daniel.png";
 
 export const links = [
   {
@@ -47,6 +48,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Daniel Interior Designs",
+    description:
+      "A website.",
+    tags: ["React", "Flask", "Tailwind"],
+    imageUrl: danImg,
+    githubUrl:"https://github.com/ErickGichuki/Daniel-Interior-designs.git"
+  },
   {
     title: "Event Hub",
     description:
