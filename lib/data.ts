@@ -6,7 +6,7 @@ import hymnsImg from "@/public/hymns.png";
 import eventImg from "@/public/event.png";
 import cliImg from "@/public/cli.png";
 import danImg from "@/public/daniel.png";
-import spaceImg from "@public/spacehub.png";
+import spaceImg from "@/public/spacehub.png";
 import { title } from "process";
 
 export const links = [
@@ -53,15 +53,15 @@ export const projectsData = [
   {
     title:"SpaceHub",
     description:
-    "It is an application that aims at solving a real world problem while searching for spaces.",
-    tags: ["React", "Flask", "Postgresql", "Tailwind"],
+    "It is a dynamic platform designed to make users easily discover and book unique spaces for a variety of events. It offers a seamless experience for finding and renting the perfect venue",
+    tags: ["React", "Flask", "Postgresql"],
     imageUrl: spaceImg,
     githubUrl: "https://github.com/IannitoTechbros/PHASE-5-GROUP-PROJECT---IAN---ERICK---MARTIN---FELIX---JEREMIAH.git"
   },
   {
     title: "Daniel Interior Designs",
     description:
-      "A web application created for an interior design company, Daniel Interior Designs. The platform is designed with a focus on modern design aesthetics and user experience.",
+      "An interior design web app for Daniel Interior Designs. The platform is designed with a focus on modern design aesthetics and user experience.",
     tags: ["React", "Flask", "Tailwind"],
     imageUrl: danImg,
     githubUrl:"https://github.com/ErickGichuki/Daniel-Interior-designs.git"
@@ -99,6 +99,6 @@ type SkillsData = {
 }
 
 export const skillsData: SkillsData = {
-  frontend: ["HTML", "CSS", "JavaScript", "React","Tailwind"],
+  frontend: ["HTML", "CSS", "JavaScript", "React","Tailwind", "Next.js"],
   backend: ["Python", "Flask", "PostgreSQL", "SQlite", "MongoDB"],
 } as const;
