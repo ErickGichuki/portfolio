@@ -6,6 +6,8 @@ import hymnsImg from "@/public/hymns.png";
 import eventImg from "@/public/event.png";
 import cliImg from "@/public/cli.png";
 import danImg from "@/public/daniel.png";
+import spaceImg from "@public/spacehub.png";
+import { title } from "process";
 
 export const links = [
   {
@@ -48,6 +50,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title:"SpaceHub",
+    description:
+    "It is an application that aims at solving a real world problem while searching for spaces.",
+    tags: ["React", "Flask", "Postgresql", "Tailwind"],
+    imageUrl: spaceImg,
+    githubUrl: "https://github.com/IannitoTechbros/PHASE-5-GROUP-PROJECT---IAN---ERICK---MARTIN---FELIX---JEREMIAH.git"
+  },
   {
     title: "Daniel Interior Designs",
     description:
