@@ -1,13 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import hymnsImg from "@/public/hymns.png";
 import eventImg from "@/public/event.png";
 import cliImg from "@/public/cli.png";
 import danImg from "@/public/daniel.png";
 import spaceImg from "@/public/spacehub.png";
-import { title } from "process";
+import farbestImg from "@/public/farbest.png"
 
 export const links = [
   {
@@ -51,6 +49,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title:"Farbest Designs",
+    description:
+    "Its an e-commerce platform that showcases a curated collection of best-selling items, complete with detailed product insights and competitive pricing.",
+    tags: ["React", "Tailwind", "Firebase"],
+    imageUrl: farbestImg,
+    githubUrl: "https://github.com/ErickGichuki/Farbest.git"
+  },
+  {
     title:"SpaceHub",
     description:
     "It is a dynamic platform designed to make users easily discover and book unique spaces for a variety of events. It offers a seamless experience for finding and renting the perfect venue",
@@ -65,14 +71,6 @@ export const projectsData = [
     tags: ["React", "Flask", "Tailwind"],
     imageUrl: danImg,
     githubUrl:"https://github.com/ErickGichuki/Daniel-Interior-designs.git"
-  },
-  {
-    title: "Event Hub",
-    description:
-      "A robust system designed to enable organisations manage events while offering users an intuitive interface to view & engage with upcoming events.",
-    tags: ["React", "Flask", "Tailwind"],
-    imageUrl: eventImg,
-    githubUrl:"https://github.com/IannitoTechbros/PHASE-4---GROUP-PROJECT---IAN-GIDEON-ERICK-GRIFFINS.git"
   },
   {
     title: "Hymns web app",
