@@ -49,12 +49,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title:"Farbest Designs",
+    title:"Erick Solutions",
     description:
     "Its an e-commerce platform that showcases a curated collection of best-selling items, complete with detailed product insights and competitive pricing.",
     tags: ["React", "Tailwind", "Firebase"],
     imageUrl: farbestImg,
-    githubUrl: "https://github.com/ErickGichuki/Farbest.git"
+    githubUrl: "https://github.com/ErickGichuki/erics.git"
   },
   {
     title:"SpaceHub",
