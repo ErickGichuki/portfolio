@@ -5,7 +5,7 @@ import eventImg from "@/public/event.png";
 import cliImg from "@/public/cli.png";
 import danImg from "@/public/daniel.png";
 import spaceImg from "@/public/spacehub.png";
-import farbestImg from "@/public/farbest.png"
+import erickImg from "@/public/erick.png"
 
 export const links = [
   {
@@ -53,7 +53,7 @@ export const projectsData = [
     description:
     "Its an e-commerce platform that showcases a curated collection of best-selling items, complete with detailed product insights and competitive pricing.",
     tags: ["React", "Tailwind", "Firebase"],
-    imageUrl: farbestImg,
+    imageUrl: erickImg,
     githubUrl: "https://github.com/ErickGichuki/erics.git"
   },
   {
