@@ -66,7 +66,7 @@ export const projectsData = [
     title: "Tic Tac Toe CLI",
     description:
       "A command-line interface game where two players can compete in a game of Tic Tac Toe. The game board updates after each move, displaying the current player's turn and the game’s progress.",
-    tags: ["Haskell"],
+    tags: ["Haskell", "Cabal"],
     imageUrl: tictacImg,
     githubUrl:"https://github.com/ErickGichuki/atc-haskell-projects.git"
   },
