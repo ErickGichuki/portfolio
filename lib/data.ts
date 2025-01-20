@@ -79,7 +79,7 @@ export const projectsData = [
     githubUrl:"https://github.com/ErickGichuki/CLI-hymns-app.git"
   },
 ] as const;
-// add devops
+
 type SkillsCategory = "frontend" | "backend" | "devops";
 
 type SkillsData = {
