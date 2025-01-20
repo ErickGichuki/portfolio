@@ -65,7 +65,7 @@ export const projectsData = [
   {
     title: "Tic Tac Toe CLI",
     description:
-      "Its a CLI game where users can play a game of Tic Tac Toe against another player(two-player mode). The game board is displayed after each move with current player information.",
+      "A command-line interface (CLI) game where two players can compete in a game of Tic Tac Toe. The game board updates after each move, displaying the current player's turn and the game’s progress.",
     tags: ["Haskell"],
     imageUrl: tictacImg,
     githubUrl:"https://github.com/ErickGichuki/atc-haskell-projects.git"
@@ -79,7 +79,6 @@ export const projectsData = [
     githubUrl:"https://github.com/ErickGichuki/CLI-hymns-app.git"
   },
 ] as const;
-
 type SkillsCategory = "frontend" | "backend" | "devops";
 
 type SkillsData = {
