@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Data Analyst",
     location: "Kisumu, Kenya",
     description:
-      "Served as a Data Analyst at Correlaction Africa, where I analyzed and interpreted complex data to support business decisions",
+      "Worked as a Data Analyst at Correlaction Africa, leveraging analytical skills to interpret complex datasets and provide actionable insights to support strategic business decisions.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - 2024",
   },
