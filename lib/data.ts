@@ -1,11 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import hymnsImg from "@/public/hymns.png";
-import eventImg from "@/public/event.png";
 import cliImg from "@/public/cli.png";
-import danImg from "@/public/daniel.png";
-import spaceImg from "@/public/spacehub.png";
-import erickImg from "@/public/erick.png"
+import kiganjoImg from "@/public/kiganjo.png"
+import bericksImg from "@/public/bericks.png";
 
 export const links = [
   {
@@ -49,28 +47,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title:"Erick Solutions",
+    title:"SDA Kiganjo Church Choir",
     description:
-    "Its an e-commerce platform that showcases a curated collection of best-selling items, complete with detailed product insights and competitive pricing.",
+    "A high-standard music platform tailored for SDA choir, enabling seamless collaboration and song management.",
+    tags: ["Nextjs", "Django", "Cloudinary"],
+    imageUrl: kiganjoImg,
+    githubUrl: "https://github.com/ErickGichuki/Kiganjochoir-frontend.git"
+  },
+  {
+    title:"Bericks Designs",
+    description:
+    "An ecommerce website that showcases a curated collection of best selling items, complete with detailed product insights and competitive pricing.",
     tags: ["React", "Tailwind", "Firebase"],
-    imageUrl: erickImg,
-    githubUrl: "https://github.com/ErickGichuki/erics.git"
-  },
-  {
-    title:"SpaceHub",
-    description:
-    "It is a dynamic platform designed to make users easily discover and book unique spaces for a variety of events. It offers a seamless experience for finding and renting the perfect venue",
-    tags: ["React", "Flask", "Postgresql"],
-    imageUrl: spaceImg,
-    githubUrl: "https://github.com/IannitoTechbros/PHASE-5-GROUP-PROJECT---IAN---ERICK---MARTIN---FELIX---JEREMIAH.git"
-  },
-  {
-    title: "Daniel Interior Designs",
-    description:
-      "An interior design web app for Daniel Interior Designs. The platform is designed with a focus on modern design aesthetics and user experience.",
-    tags: ["React", "Flask", "Tailwind"],
-    imageUrl: danImg,
-    githubUrl:"https://github.com/ErickGichuki/Daniel-Interior-designs.git"
+    imageUrl: bericksImg,
+    githubUrl: "https://github.com/ErickGichuki/Bericks-frontend.git"
   },
   {
     title: "Hymns web app",
