@@ -44,15 +44,11 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-md font-small !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Erick Gichuki</span><br/> I'm a{" "}
-        passionate Software Engineer based in Kenya.{" "}
-        <span className=""></span> I thrive on
-        building <span className="">websites and applications</span>, focusing on{" "}
-        crafting elegant solutions to real-world problems.
+        I’m a <span className="font-medium">Software Engineer </span>specializing in  both frontend, backend development and DevOps.
       </motion.h1>
 
       <motion.div
