@@ -87,7 +87,7 @@ type SkillsData = {
 }
 
 export const skillsData: SkillsData = {
-  frontend: ["HTML", "CSS", "JavaScript", "React","Tailwind", "Next.js"],
-  backend: ["Python", "Nodejs","Express","Flask", "Django", "PostgreSQL"],
-  devops: ["Jenkins", "GitHub Actions", "Terraform","Docker", "Kubernetes"]
+  frontend: ["HTML", "CSS", "JavaScript", "React","Tailwind", "Next.js", "Typescript"],
+  backend: ["Python", "Nodejs","Express","Flask", "Django", "PostgreSQL", "Cloud"],
+  devops: ["Jenkins", "GitHub Actions", "Terraform","Docker", "Kubernetes", "Ansible"]
 } as const;
