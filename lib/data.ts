@@ -65,10 +65,10 @@ export const projectsData = [
   {
     title: "Tic Tac Toe CLI",
     description:
-      "Its a CLI game where users can play a game of Tic Tac Toe against another player(two-player mode).",
+      "Its a CLI game where users can play a game of Tic Tac Toe against another player(two-player mode). The game board is displayed after each move with current player information.",
     tags: ["Haskell"],
     imageUrl: tictacImg,
-    githubUrl:""
+    githubUrl:"https://github.com/ErickGichuki/atc-haskell-projects.git"
   },
   {
     title: "CLI hymns app",
@@ -80,7 +80,7 @@ export const projectsData = [
   },
 ] as const;
 
-type SkillsCategory = "frontend" | "backend";
+type SkillsCategory = "frontend" | "backend" | "devops";
 
 type SkillsData = {
   [key in SkillsCategory]:readonly string[];
@@ -88,5 +88,6 @@ type SkillsData = {
 
 export const skillsData: SkillsData = {
   frontend: ["HTML", "CSS", "JavaScript", "React","Tailwind", "Next.js"],
-  backend: ["Python", "Flask", "Django", "PostgreSQL", "SQlite", "MongoDB"],
+  backend: ["Python", "Nodejs","Express","Flask", "Django", "PostgreSQL"],
+  devops: ["Jenkins", "GitHub Actions", "Terraform","Docker", "Kubernetes"]
 } as const;

@@ -55,6 +55,7 @@ export default function Skills() {
       <SectionHeading>My skills</SectionHeading>
       {renderSkills(skillsData.frontend, "Frontend Skills")}
       {renderSkills(skillsData.backend, "Backend Skills")}
+      {renderSkills(skillsData.devops, "DevOps Skills")}
     </section>
   );
 }
