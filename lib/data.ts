@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import hymnsImg from "@/public/hymns.png";
+import tictacImg from "@/public/tictac.png";
 import cliImg from "@/public/cli.png";
 import kiganjoImg from "@/public/kiganjo.png"
 import bericksImg from "@/public/bericks.png";
@@ -58,17 +58,17 @@ export const projectsData = [
     title:"Bericks Designs",
     description:
     "An ecommerce website that showcases a curated collection of best selling items, complete with detailed product insights and competitive pricing.",
-    tags: ["React", "Tailwind", "Firebase"],
+    tags: ["React", "Tailwind", "Django"],
     imageUrl: bericksImg,
     githubUrl: "https://github.com/ErickGichuki/Bericks-frontend.git"
   },
   {
-    title: "Hymns web app",
+    title: "Tic Tac Toe CLI",
     description:
-      "Its a platform that allows users to search and browse hymns by author, key and title, making it easy to find and explore a wide range of hymns.",
-    tags: ["HTML","Js","CSS"],
-    imageUrl: hymnsImg,
-    githubUrl:"https://github.com/ErickGichuki/Hymns.git"
+      "Its a CLI game where users can play a game of Tic Tac Toe against another player(two-player mode).",
+    tags: ["Haskell"],
+    imageUrl: tictacImg,
+    githubUrl:""
   },
   {
     title: "CLI hymns app",
