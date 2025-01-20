@@ -17,13 +17,10 @@ export default function About() {
       <SectionHeading>About Me</SectionHeading>
       <div className="text-justify">
         <p className="mb-3">
-          I hold a degree in <span className="font-medium">Economics and Statistics</span>, which laid the foundation for my analytical skills. My professional journey began as a Data Analyst at Correlaction Africa, where I honed my ability to derive insights from data. Eager to learn programming and solve real world problems facing us everyday, I joined Powerlearn Project bootcamp, diving into <span className="font-medium">full-stack web development using Python and JavaScript</span>. Later on I enhanced my knowledge further at Moringa School.
-        </p>
-        <p className="mb-3">
-          My passion lies in <span className="font-medium">back-end development</span>, where I enjoy tackling complex challenges and implementing effective solutions. My core technology stack includes <span className="font-medium">React, Nextjs, Flask and Django</span>. I am committed to continuous learning and am actively seeking a <span className="font-medium">full-time Software Developer position</span> to leverage my skills and contribute to impactful projects.
+          I am a <span className="font-medium">Software Engineer</span> well-versed in <span className="font-medium">DevOps, cloud computing and software development</span>. My focus is on building scalable, efficient systems and delivering impactful solutions in the tech space.
         </p>
         <p>
-          Outside of my professional life, I find joy in <span className="text-yellow-500">playing the piano</span>.
+          I am passionate about innovation, continuous learning, and contributing to projects that make a difference.
         </p>
       </div>
     </motion.section>
