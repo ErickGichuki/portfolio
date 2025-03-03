@@ -17,7 +17,7 @@ export default function About() {
       <SectionHeading>About Me</SectionHeading>
       <div className="text-justify">
         <p className="mb-3">
-          I am a <span className="font-medium">Software Engineer</span> well-versed in <span className="font-medium">DevOps, cloud computing and software development</span>. My focus is on building scalable, efficient systems and delivering impactful solutions in the tech space.
+          My focus is on building scalable, efficient systems and delivering impactful solutions in the tech space.
         </p>
         <p>
           I am passionate about innovation, continuous learning, and contributing to projects that make a difference.
