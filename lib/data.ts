@@ -36,7 +36,7 @@ export const experiencesData = [
   
   {
     title: "Data Analyst",
-    location: "Kisumu, Kenya",
+    location: "Nairobi, Kenya",
     description:
       "Worked as a Data Analyst at Correlaction Africa, leveraging analytical skills to interpret complex datasets and provide actionable insights to support strategic business decisions.",
     icon: React.createElement(CgWorkAlt),
@@ -52,7 +52,7 @@ export const projectsData = [
     "A high-standard music platform tailored for SDA choir, enabling seamless collaboration and song management.",
     tags: ["Nextjs", "Django", "Cloudinary"],
     imageUrl: kiganjoImg,
-    githubUrl: "https://github.com/ErickGichuki/Kiganjochoir-frontend.git"
+    githubUrl: "https://sdakiganjochurchchoir.vercel.app/"
   },
   {
     title:"Bericks Designs",
@@ -60,7 +60,7 @@ export const projectsData = [
     "An ecommerce website that showcases a curated collection of best selling items, complete with detailed product insights and competitive pricing.",
     tags: ["React", "Tailwind", "Django"],
     imageUrl: bericksImg,
-    githubUrl: "https://github.com/ErickGichuki/Bericks-frontend.git"
+    githubUrl: "https://bericks.vercel.app/"
   },
   {
     title: "Tic Tac Toe CLI",

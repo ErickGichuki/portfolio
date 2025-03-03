@@ -61,7 +61,7 @@ export default function Project({
             rel="noopener noreferrer"
             className="mt-4 inline-block text-blue-600 hover:underline dark:text-blue-400"
             >
-              View on GitHub
+              Live Site
             </a>
           )}
         </div>
