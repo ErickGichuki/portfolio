@@ -4,6 +4,7 @@ import tictacImg from "@/public/tictac.png";
 import cliImg from "@/public/cli.png";
 import kiganjoImg from "@/public/kiganjo.png"
 import bericksImg from "@/public/bericks.png";
+import danielsImg from "@/public/daniels.png";
 
 export const links = [
   {
@@ -63,12 +64,12 @@ export const projectsData = [
     githubUrl: "https://bericks.vercel.app/"
   },
   {
-    title: "Tic Tac Toe CLI",
+    title: "Daniel Interior Designs",
     description:
-      "A command-line interface game where two players can compete in a game of Tic Tac Toe. The game board updates after each move, displaying the current player's turn and the game’s progress.",
-    tags: ["Haskell", "Cabal"],
-    imageUrl: tictacImg,
-    githubUrl:"https://github.com/ErickGichuki/atc-haskell-projects.git"
+      "An interior design-based company that offers services for transforming spaces with creativity and precision, providing custom solutions tailored to each client's needs.",
+    tags: ["Nextjs", "Python", "Tailwind"],
+    imageUrl: danielsImg,
+    githubUrl:"https://danielinteriordesigns.vercel.app/"
   },
   {
     title: "CLI hymns app",
