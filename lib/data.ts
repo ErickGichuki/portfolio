@@ -64,20 +64,20 @@ export const projectsData = [
     githubUrl: "https://bericks.vercel.app/"
   },
   {
+    title: "CI/CD Pipeline",
+    description:
+      "Automated a robust CI/CD pipeline for a Java application deployed on K8s, leveraging Jenkins, Docker and ArgoCD, enhanced code quality, efficient delivery through GitOps.",
+    tags: ["Jenkins", "ArgoCD", "SonarQube"],
+    imageUrl: cliImg,
+    githubUrl:"https://github.com/ErickGichuki/Java-maven-cicid.git"
+  },
+  {
     title: "Daniel Interior Designs",
     description:
-      "An interior design-based company that offers services for transforming spaces with creativity and precision, providing custom solutions tailored to each client's needs.",
+      "An interior design-based company that offers services for transforming spaces with creativity and precision tailored to each client's needs.",
     tags: ["Nextjs", "Python", "Tailwind"],
     imageUrl: danielsImg,
     githubUrl:"https://danielinteriordesigns.vercel.app/"
-  },
-  {
-    title: "CI/CD Pipeline",
-    description:
-      "Automated a robust CI/CD pipeline for a Java application deployed on Kubernetes, leveraging Jenkins, Docker and ArgoCD, enhanced code quality, efficient delivery through GitOps.",
-    tags: ["Jenkins", "ArgoCD", "SonarQube"],
-    imageUrl: cliImg,
-    githubUrl:"https://github.com/ErickGichuki/CLI-hymns-app.git"
   },
 ] as const;
 type SkillsCategory = "frontend" | "backend" | "devops";
