@@ -72,9 +72,9 @@ export const projectsData = [
     githubUrl:"https://danielinteriordesigns.vercel.app/"
   },
   {
-    title: "CLI hymns app",
+    title: "CI/CD Pipeline",
     description:
-      "A command line management system that enables users to create, update, read and delete hymns efficiently.",
+      "Automated a robust CI/CD pipeline for a Java application deployed on Kubernetes, leveraging Jenkins, Docker and ArgoCD, enhanced code quality, efficient delivery through GitOps.",
     tags: ["Python", "Sqlite", "Click"],
     imageUrl: cliImg,
     githubUrl:"https://github.com/ErickGichuki/CLI-hymns-app.git"
