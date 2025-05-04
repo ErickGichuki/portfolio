@@ -75,7 +75,7 @@ export const projectsData = [
     title: "CI/CD Pipeline",
     description:
       "Automated a robust CI/CD pipeline for a Java application deployed on Kubernetes, leveraging Jenkins, Docker and ArgoCD, enhanced code quality, efficient delivery through GitOps.",
-    tags: ["Python", "Sqlite", "Click"],
+    tags: ["Jenkins", "ArgoCD", "SonarQube"],
     imageUrl: cliImg,
     githubUrl:"https://github.com/ErickGichuki/CLI-hymns-app.git"
   },
