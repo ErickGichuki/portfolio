@@ -36,12 +36,12 @@ export const links = [
 export const experiencesData = [
   
   {
-    title: "Data Analyst",
-    location: "Nairobi, Kenya",
+    title: "DevOps",
+    location: "Remote, Kenya",
     description:
-      "Worked as a Data Analyst at Correlaction Africa, leveraging analytical skills to interpret complex datasets and provide actionable insights to support strategic business decisions.",
+      "Design and build scalable, cost-optimized cloud infrastructure for clients, ensuring high performance, availability, and security across environments",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - 2024",
+    date: "2024 - Present",
   },
   
 ] as const;
